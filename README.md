@@ -18,8 +18,22 @@ A React + TypeScript app to manage your Gunpla backlog.
 
 ### Installation
 
+Clone the repository:
+
+```bash
+git clone https://github.com/marioBytes/gunpla-backlog.git
+```
+
+Navigate to the project directory:
+
 ```bash
 npm install
+```
+
+### Running the App
+
+```bash
+npm run dev
 ```
 
 ## Contributing
