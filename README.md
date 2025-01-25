@@ -29,3 +29,4 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## Future Plans
 
 - Add rich search functionality: search by priority, status, grade.
+- Convert to full stack app
