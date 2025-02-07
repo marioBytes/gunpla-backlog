@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Check, Edit2, Trash2 } from 'lucide-react';
+import { Check, Edit2, Trash2, X } from 'lucide-react';
 
 import { Build, Grade, Priority, Status } from '../types';
 import Select from '../../../components/Select';
