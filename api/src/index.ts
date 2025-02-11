@@ -1,5 +1,7 @@
 import express from 'express';
-import rootRouter from '@routes/home';
+import bodyParser from 'body-parser';
+
+import mountedRoutes from '@routes/index';
 
 // Create a new express application instance
 const app = express();
@@ -7,8 +9,10 @@ const app = express();
 // Set the network port
 const port = process.env.PORT || 3000;
 
+app.use(bodyParser.json());
+
 // Define the root path with a greeting message
-app.use('/', rootRouter);
+mountedRoutes(app);
 
 // Start the Express server
 app.listen(port, () => {
